@@ -1,0 +1,17 @@
+# requirements.txt
+flask==2.1.0
+gunicorn==20.1.0
+
+# runtime.txt
+python-3.9.7
+
+# Procfile
+web: gunicorn app:app
+
+# .gitignore
+venv/
+*.pyc
+__pycache__/
+.env
+```
+</invoke>
